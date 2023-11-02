@@ -8,3 +8,26 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+body{
+    display:flex;
+    flex-direction: column;
+    background-color: #540B51;
+}
+
+@media (width<768px){
+    nav {
+        width:100vw;
+        display:flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        border: 0px;
+    }
+    #logo {
+    height: 25px;
+    border:0px;
+    }
+
+    .imgnavbar {
+        height: 20px;
+    }
+}
