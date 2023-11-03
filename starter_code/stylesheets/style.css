@@ -12,14 +12,15 @@ body{
     display:flex;
     flex-direction: column;
     background-color: #540B51;
+    font-family: Roboto;
 }
 
-@media (width<768px){
     nav {
+        margin-top:3em;
         width:100vw;
         display:flex;
         justify-content: space-between;
-        margin-left: 10px;
+        margin-left: 3em;
         border: 0px;
     }
     #logo {
@@ -29,5 +30,427 @@ body{
 
     .imgnavbar {
         height: 20px;
+        margin-right: 5em;
     }
+
+    nav ul{
+    display: none;
+    }
+   
+    #iconsearch {
+        margin-left:0em;
+        background-color: #540B51;
+        margin-right:0em; 
+        border:0em;
+    }
+
+    #iconmenu {
+        margin-left:-4em;
+        margin-right:1em;
+        background-color: #540B51;
+        border:0em;
+    }
+
+
+    header h1{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3em;
+    margin-left: 0.5em;
+    }
+   
+    header span{
+     color:#ECB12F;
+    }
+
+    header p{
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    #buttons {
+        display:flex;
+        flex-direction: column;
+        margin:1em;
+        margin-left: 2em;
+    }
+   
+    #whitebutton {
+        text-transform: uppercase;
+        height:4em;
+        padding: 15px;
+        margin-bottom: 5px;
+        color:#540B51;
+        background-color: white;
+        border-radius: 5px;
+    }
+  
+    #bluebutton {
+     background-color: #4285F4;
+     height: 4em;
+     display:flex;
+     align-items:center;
+     border-radius: 5px;
+    }
+
+    #bluebutton img {
+    max-width: 8%;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    }
+
+    #bluebutton span{
+        text-transform: uppercase;
+        color: white;
+         margin-left: 8em;}
+
+
+ .slackimg img {
+    width: 45em;
+    margin-left: 3em;
+    margin-right: 0em;
+ }
+
+ main {
+    background-color:#F3EAE2 ;
+    margin-left:0em;
+    margin-right: 0em;
+    padding-top: 2em;
+ }
+
+ .sectiontitle{
+    text-transform:uppercase;
+    text-align: center;
+    font-weight: bolder;
+ }
+
+ #companieslogo {
+display:flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+margin-left:1em;
+margin-bottom: 3em;;
+ }
+
+ #companieslogo img{
+    width: auto;
+    height: 2em;
+    padding: 2%;
+ }
+
+ #section2 img{
+    width:95%;
+    margin-left:0em;
+ }
+
+ .teampar , #section3par, #section4par {
+margin-left:2em;
+margin-right: 1em;
+ }
+
+ main h2{
+    padding-top: 2em;
+    font-weight: bold;
+ }
+
+ #section3 img{
+    padding-top: 4em;
+    width:95%;
+    margin-left:1.7em;
+ }
+
+ #section4 img{
+    padding-top: 4em;
+    width:32em;
+ }
+ 
+ #section4 h2{
+    font-size: 2.5em;
+ }
+
+ #section5{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 10%;
+ }
+
+ #section5 h3{
+ padding-top: 2em;
+    font-size:2.5em;
+    margin-left: 1em;
+ }
+
+ #section5 p{
+font-size:1em;
+align-items: center;
+margin-left: 4em;
+margin-right: 4em;
+ }
+
+ #section5 button{
+    display:flex;
+    flex-direction: column;
+    margin-left: 2em;
+     }
+
+ .purplebutton {
+    background-color: #540B51;
+    color:white;
+    text-transform: uppercase;
+    height: 4.5em;
+    width: 93%;
+    margin-top:1em;
+    margin-bottom:1em;
+    padding-top:1.5em;
+    border-color: #540B51;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    border-color: white;
+    margin-left:2em;
+ }
+
+ .whitebutton {
+    background-color: white;
+    color:#540B51;
+    text-transform: uppercase;
+    margin-top:1em;
+    margin-bottom:1em;
+    padding-top:1.5em;
+    border-color: #540B51;
+    border-radius:5px;
+    height: 4.5em;
+    width: 93%;
+    margin-left: 2em;
+    align-items: center;
+    text-align: center;
+ }
+
+ ul{
+    padding-top: 4em;
+    list-style-type: none;
+ }
+
+ ul span {
+    color:#540B51;
+    font-size: 3em;
+    font-weight: bolder;
+ }
+
+ ul p{
+    text-align: center;
+    font-weight: bold;
+    margin:5em;
+ }
+
+ #section6 {
+    background-color: #540B51;
+    padding-top: 5%;
+    padding-bottom:15%;
+ }
+
+ #section6 h3{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+ }
+
+
+ footer {
+    padding-top:8em;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+ }
+
+ footer li{
+    padding-top:1em;
+ }
+
+ footer img{
+    width: 3em;
+    margin-top: -5em;
+    margin-left:2em;
+ }
+
+ #listfooter {
+    margin-top: -3em;
+    display:flex;
+    flex-direction: row; 
+    margin-left:0em;
+    
+ }
+
+ .li1{
+    font-weight:bolder;
+ }
+
+ #footerstatus{
+    font-weight: bolder;
+    margin-bottom: -5em;
+ }
+
+ #sociallogo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -3em;
+ }
+
+ #sociallogo li{
+padding: 3em;
+ }
+
+ small{
+ display: flex;
+ align-items: center;
+ text-align:left;
+ font-size: 100%;
+ margin-left: 2em;
+ }
+
+ #downloadlink{
+    color:#4285F4;
+ }
+    
+
+@media (min-width:768px) and (max-width:1024px){
+    
+header{
+   display:flex;
+   flex-direction: row;
 }
+
+header h1{
+display: flex;
+text-align: left;
+font-weight: bolder;
+font-size: 5em;
+width:6em;
+
+}
+
+.slackimg img {
+   width: 25em;
+   padding-left:14em;
+   padding-top:10em;
+}
+
+header p{
+   font-size: 2em;
+   text-align: left;
+   padding-left:1em;
+}
+
+#section3 img{
+   padding-left:1em;
+}
+
+#section5 ul{
+display:flex;
+flex-direction: row;
+padding-left: 0.6em;
+}
+
+#section5 li{
+   padding-right: 0em;
+   font-size: 0.8em;
+}
+
+
+        }
+
+@media (min-width:1024px) and (max-width:1440px){
+
+   nav ul{
+      display: block;
+      padding-top: 0em;
+      margin-top: 0.2em;
+      display: flex;
+      flex-direction: row;
+      } 
+
+      .a1{
+         color: white;
+         padding-right: 1em;
+         font-weight: bolder;
+      }
+
+   nav{
+      display:flex;
+      flex-direction: row;
+      padding-left:0em;
+   }
+
+   #logoandlist{
+      display: flex;
+      flex-direction: row;
+   }
+
+#navrigth{
+   display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-start;
+	align-content: flex-end;
+   padding-right: 4em;
+
+}
+
+#navbottons a{
+   color: white;
+   padding-right:1em;
+
+}
+
+#iconmenu{
+   padding-left:0em;
+   padding-right:0em;
+   border-right:0em;
+}
+
+#Trybotton {
+   background-color: white;
+   border-radius: 5%;
+   height: 5em;
+   text-transform: uppercase;
+}
+
+header{display:flex;
+   flex-direction: row;
+}
+
+
+#bluebutton span{
+ padding-left:0em;
+ margin-left:1em;
+}
+
+
+#section2 img, #section3 img, #section4 img{
+  width:30em;
+}
+
+#section2, #section3,#section4 {
+   display:flex;
+}
+
+#section3 {
+   flex-direction: row-reverse;
+}
+
+}
+
+
+
+
+
+
+    
